@@ -40,4 +40,27 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public void onNothingSelected(AdapterView<?> parent) {
 
     }
+
+
+
+    //     ListView listview;
+    //     String[] mobileArray={"android","java","kotlin","flutter"};
+    // @Override
+    // protected void onCreate(Bundle savedInstanceState) {
+    //     super.onCreate(savedInstanceState);
+    //     setContentView(R.layout.activity_main);
+
+
+    //     ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item,mobileArray);
+    //     listview = findViewById(R.id.lv);
+    //     listview.setAdapter(adapter);
+    //     listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+    //         @Override
+    //         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+    //             String item = adapter.getItem(position);
+
+    //             Toast.makeText(getApplicationContext(),String.valueOf(item),Toast.LENGTH_SHORT).show();
+    //         }
+    //     });
+    // }
 }
